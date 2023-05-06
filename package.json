@@ -1,0 +1,23 @@
+{
+  "name": "mpv-typescript-template",
+  "version": "1.0.0",
+  "description": "mpv-script template with typescript",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript"
+  },
+  "keywords": [
+    "mpv-script",
+    "template",
+    "typescript"
+  ],
+  "author": "jonniek",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/mpv-script": "^0.32.2",
+    "rollup": "^3.21.5",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4",
+    "@types/node": "^20.1.0"
+  }
+}

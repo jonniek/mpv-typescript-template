@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": [
+        "es6",
+        "es5",
+    ],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "noImplicitThis": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "sourceMap": false,
+    "types": [
+        "@types/mpv-script",
+    ],
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+}
